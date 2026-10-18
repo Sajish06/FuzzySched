@@ -1,0 +1,28 @@
+Rule_ID,Antecedent_Urgency,Antecedent_Difficulty,Antecedent_Workload,Consequent_Priority,Soft_Computing_Rationale
+1,Low,Easy,Light,Very Low,"Distant deadline, simple task, and no workload pressure; task can be safely deferred."
+2,Low,Easy,Moderate,Very Low,Easy assignment far from deadline; student should prioritize impending moderate/heavy tasks.
+3,Low,Easy,Heavy,Low,Distant easy task amidst heavy schedule; slight priority bump to keep on the student's planning radar.
+4,Low,Moderate,Light,Low,Moderate task with ample time and light competing commitments; standard low priority.
+5,Low,Moderate,Moderate,Low,"Balanced moderate difficulty and workload, but distant deadline allows normal scheduling."
+6,Low,Moderate,Heavy,Medium,Heavy competing workload requires slotting moderate tasks early to prevent future bottleneck.
+7,Low,Hard,Light,Low,"Difficult assignment, but deadline is far away and student has ample cognitive bandwidth."
+8,Low,Hard,Moderate,Medium,Challenging task combined with moderate competing load warrants early research and drafting.
+9,Low,Hard,Heavy,Medium,Hard assignment with heavy backlog; proactivity is essential to prevent catastrophic pile-up.
+10,Medium,Easy,Light,Low,"Approaching deadline, but task is quick and load is light; can be dispatched efficiently."
+11,Medium,Easy,Moderate,Medium,Approaching deadline with moderate load; completing this easy task early clears mental bandwidth.
+12,Medium,Easy,Heavy,Medium,Approaching deadline in a heavy workload environment; quick-win completion prevents accumulation.
+13,Medium,Moderate,Light,Medium,"Standard baseline scenario: moderate urgency, moderate difficulty, light load yields medium priority."
+14,Medium,Moderate,Moderate,Medium,All intermediate conditions; balanced scheduling priority.
+15,Medium,Moderate,Heavy,High,Approaching deadline for moderate task combined with heavy workload creates severe delay hazard.
+16,Medium,Hard,Light,Medium,Approaching deadline for a tough task; light competing workload allows focused dedication.
+17,Medium,Hard,Moderate,High,Difficult task with approaching deadline amidst moderate workload demands immediate progress.
+18,Medium,Hard,Heavy,High,"Approaching deadline, difficult task, and heavy workload; high priority to avoid severe time crunch."
+19,High,Easy,Light,High,Critical deadline; even an easy task must be executed immediately to avoid grade penalty.
+20,High,Easy,Moderate,High,Imminent deadline with moderate load; easy task must be submitted without further delay.
+21,High,Easy,Heavy,High,Imminent deadline with heavy backlog; immediate execution clears one pending deadline.
+22,High,Moderate,Light,High,Imminent deadline on moderate task requires immediate active working session.
+23,High,Moderate,Moderate,High,"Imminent deadline, moderate task and competing commitments; top-tier priority."
+24,High,Moderate,Heavy,Very High,"Imminent deadline, moderate task, and heavy load; high probability of missing submission without urgent effort."
+25,High,Hard,Light,High,Imminent hard task requires all available cognitive effort; high priority.
+26,High,Hard,Moderate,Very High,"Imminent hard assignment with multiple concurrent tasks; extreme risk of delay, very high priority."
+27,High,Hard,Heavy,Very High,"Worst-case scenario: imminent deadline, hard task, and heavy backlog; maximum critical emergency priority."

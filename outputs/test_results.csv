@@ -1,0 +1,13 @@
+Scenario_ID,Description,Days_Remaining,Raw_Difficulty,Other_Assignments,Perceived_Length,Urgency_Norm_0_10,Difficulty_Norm_0_10,Workload_Norm_0_10,Active_Rules_Summary,Calculated_Priority,Priority_Category,Expected_Category,Validation_Status
+SC-01,"Low urgency, easy task, light workload",14.0,1.0,0.0,2.0,0.0,0.0,0.35,R1(μ=1.00->Very Low),9.29,Very Low,Very Low,PASS
+SC-02,"High urgency, hard task, heavy workload",0.0,5.0,5.0,20.0,10.0,10.0,10.0,R27(μ=1.00->Very High),90.71,Very High,Very High,PASS
+SC-03,"High urgency, easy task, light workload (critical deadline principle)",0.0,1.0,0.0,2.0,10.0,0.0,0.35,R19(μ=1.00->High),75.0,High,High,PASS
+SC-04,"Low urgency, hard task, heavy workload (proactive planning)",14.0,5.0,5.0,20.0,0.0,10.0,10.0,R9(μ=1.00->Medium),50.0,Medium,Medium,PASS
+SC-05,Medium values for all inputs (balanced intermediate),7.0,3.0,2.5,10.0,5.0,5.0,5.0,R14(μ=1.00->Medium),50.0,Medium,Medium,PASS
+SC-06,Zero days remaining (due today),0.0,3.0,2.0,5.0,10.0,5.0,3.48,R22(μ=0.51->High); R23(μ=0.39->High),75.0,High,High,PASS
+SC-07,Overdue task (negative days remaining),-2.0,4.0,3.0,8.0,10.0,7.5,5.3,R26(μ=0.83->Very High); R27(μ=0.10->Very High),90.28,Very High,High/Very High,PASS
+SC-08,"Boundary lower extremes (distant deadline, minimum difficulty, zero workload)",21.0,1.0,0.0,0.0,0.0,0.0,0.0,R1(μ=1.00->Very Low),9.29,Very Low,Very Low,PASS
+SC-09,"Boundary upper extremes (overdue, max difficulty, severe workload overload)",-5.0,5.0,8.0,30.0,10.0,10.0,10.0,R27(μ=1.00->Very High),90.71,Very High,Very High,PASS
+SC-10,Overlapping rules activation (transitional boundary),9.1,2.4,1.75,7.0,3.5,3.5,3.5,R1(μ=0.50->Very Low); R2(μ=0.40->Very Low); R4(μ=0.40->Low),33.47,Low,Low/Medium,PASS
+SC-11,"Approaching deadline, difficult task, light workload",5.0,5.0,1.0,4.0,6.43,10.0,2.0,R25(μ=0.48->High); R16(μ=0.43->Medium),63.06,High,Medium,PASS
+SC-12,"Approaching deadline, moderate task, heavy workload",5.0,3.0,4.0,15.0,6.43,5.0,7.83,R24(μ=0.48->Very High); R15(μ=0.43->High),78.15,High,High,PASS

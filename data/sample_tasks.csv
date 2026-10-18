@@ -1,0 +1,13 @@
+task_id,title,days_till_deadline,perceived_difficulty,num_other_assignments,perceived_length,notes
+T01,Final Capstone Submission,-1,5,4,18,Overdue capstone project; maximum urgency and workload
+T02,Calculus Problem Set 4,0,4,3,6,Due today; high urgency and high difficulty
+T03,Soft Computing Fuzzy Engine,1,5,4,12,Due tomorrow; high urgency and hard task with heavy backlog
+T04,English Reading Reflection,1,1,0,2,Due tomorrow; urgent but easy and low workload
+T05,Operating Systems Lab,3,4,3,8,Due in 3 days; moderate-to-high urgency and workload
+T06,Midterm Exam Study Guide,5,3,2,5,Due in 5 days; balanced intermediate profile
+T07,Weekly Chemistry Quiz,7,2,1,3,Due in 1 week; low-medium urgency and easy-moderate task
+T08,History Term Paper Outline,10,3,1,4,Due in 10 days; distant deadline with manageable load
+T09,Machine Learning Term Project,14,5,4,20,Due in 2 weeks; hard task and heavy load but distant deadline
+T10,Optional Bonus Problem,21,1,0,1,Due in 3 weeks; distant deadline and trivial effort
+T11,Literature Essay Draft,2,3,2,4,Due in 2 days; medium-high urgency with typical load
+T12,Database Schema Normalization,4,4,1,5,Due in 4 days; hard assignment with light competing load
