@@ -1,0 +1,61 @@
+scenario_id,category,title,days_remaining,difficulty,other_assignments,perceived_length,description
+DIL-01,Dilemma,Easy Task Tomorrow vs Hard Capstone in 3 Days (Easy),1.0,1.0,0,1.5,"Trivial 1-hr reading due tomorrow, zero competing load."
+DIL-02,Dilemma,Easy Task Tomorrow vs Hard Capstone in 3 Days (Capstone),3.0,5.0,4,18.0,Exhausting 18-hr capstone due in 3 days with heavy backlog.
+DIL-03,Dilemma,Procrastination Trap: Major Project in 5 Days,5.0,5.0,3,16.0,Distant major project requiring 16 hrs of coding. High procrastination risk.
+DIL-04,Dilemma,Procrastination Trap: Minor Quiz in 3 Days,3.0,1.5,1,2.0,Low-stakes 2-hr quiz due in 3 days. Easily completed in one sitting.
+DIL-05,Dilemma,Overdue Attendance Survey vs Final Exam Tomorrow (Survey),-1.0,1.0,0,0.5,Overdue trivial 10-minute feedback form.
+DIL-06,Dilemma,Overdue Attendance Survey vs Final Exam Tomorrow (Exam),1.0,5.0,3,14.0,Comprehensive semester final exam due tomorrow.
+DIL-07,Dilemma,Congestion Bottleneck: Moderate in 2 Days + 5 Assignments,2.0,3.0,5,6.0,Moderate assignment trapped in heavy 5-assignment congestion.
+DIL-08,Dilemma,Congestion Bottleneck: Hard in 2 Days + 0 Assignments,2.0,5.0,0,6.0,Difficult assignment but student has 100% focused attention.
+DIL-09,Dilemma,Voluminous Easy Reading (20 hrs) in 4 Days,4.0,1.5,2,20.0,Conceptually easy novel reading but immense time sink (20 hrs).
+DIL-10,Dilemma,Conceptually Brutal Short Proof (2 hrs) in 4 Days,4.0,5.0,2,2.0,"High cognitive complexity math proof, short length."
+DIL-11,Dilemma,"Quick Win Low-Hanging Fruit (2 Days, Easy)",2.0,1.0,2,1.5,Fast 90-minute assignment due in 2 days.
+DIL-12,Dilemma,"Heavy Essay Milestone (2 Days, Hard)",2.0,4.5,2,10.0,Demanding 10-hour research draft due in 2 days.
+EXT-01,Extremes,Severely Overdue Hard Project (-3 days),-3.0,5.0,4,15.0,"Late penalty compounding daily, urgent recovery needed."
+EXT-02,Extremes,Overdue Easy Assignment (-1 day),-1.0,1.0,1,2.0,Late easy submission.
+EXT-03,Extremes,"Due Today Maximum Crisis (0 days, Hard, Congested)",0.0,5.0,5,18.0,"Absolute emergency: Due today, hardest difficulty, maximum backlog."
+EXT-04,Extremes,"Due Today Easy Task (0 days, Easy, Light)",0.0,1.0,0,1.0,Due today but takes 1 hour and zero other distractions.
+EXT-05,Extremes,"Distant Horizon Brutal Capstone (14 days, Hard, Heavy)",14.0,5.0,4,20.0,"2 weeks away, but massive 20-hour project."
+EXT-06,Extremes,"Distant Horizon Trivial Task (14 days, Easy, Light)",14.0,1.0,0,1.0,"2 weeks away, negligible effort."
+EXT-07,Extremes,"Far Horizon (21 days, Moderate)",21.0,3.0,2,5.0,Beyond normal horizon; urgency effectively zero.
+EXT-08,Extremes,"Far Horizon (30 days, Hard)",30.0,5.0,1,10.0,A month away.
+EXT-09,Extremes,"Absolute Minimum Inputs (14 days, Diff 1, Load 0, Len 0)",14.0,1.0,0,0.0,Theoretical lower bound of priority.
+EXT-10,Extremes,"Absolute Maximum Inputs (0 days, Diff 5, Load 5, Len 20)",0.0,5.0,5,20.0,Theoretical upper bound of priority.
+EXT-11,Extremes,Overdue Moderate Assignment (-2 days),-2.0,3.0,2,4.0,"2 days overdue, moderate scope."
+EXT-12,Extremes,Due Today Moderate Assignment (0 days),0.0,3.0,2,4.0,"Due today, average workload."
+REAL-01,Realistic,Calculus Problem Set,1.0,4.0,2,5.0,Standard challenging math homework due tomorrow.
+REAL-02,Realistic,Physics Lab Report,2.0,3.5,3,6.0,Data analysis and report write-up due in 2 days.
+REAL-03,Realistic,History Discussion Board,1.0,1.5,1,1.5,Weekly forum response due tomorrow.
+REAL-04,Realistic,Software Engineering Sprint,3.0,4.5,3,10.0,Group project milestone due in 3 days.
+REAL-05,Realistic,Biology Pre-Lab Quiz,0.5,2.0,1,1.0,Quick 30-min quiz due tonight.
+REAL-06,Realistic,Economics Problem Set,4.0,3.0,2,4.0,Intermediate macroeconomics problems.
+REAL-07,Realistic,Philosophy Reading Essay,5.0,3.5,1,5.0,Critical text analysis due in 5 days.
+REAL-08,Realistic,Linear Algebra Homework,2.0,4.0,1,4.0,Matrix proofs due in 2 days.
+REAL-09,Realistic,Chemistry Midterm Revision,3.0,4.5,4,12.0,Heavy exam study packet due in 3 days.
+REAL-10,Realistic,Spanish Vocabulary Review,6.0,1.5,0,2.0,Spaced repetition flashcards.
+REAL-11,Realistic,Database Schema Design,3.0,3.5,2,5.0,Relational schema and SQL queries.
+REAL-12,Realistic,Data Structures Assignment,2.0,4.0,3,7.0,Binary search tree implementation and tests.
+REAL-13,Realistic,English Literature Essay,7.0,3.0,2,6.0,Comparative literature essay due next week.
+REAL-14,Realistic,Statistics Weekly Homework,4.0,2.5,1,3.0,Regression analysis exercises.
+REAL-15,Realistic,Ethics Reflection Paper,8.0,2.0,1,3.0,Personal reflection paper due in over a week.
+REAL-16,Realistic,Operating Systems Memory Lab,1.5,5.0,3,9.0,Virtual memory paging simulation in C.
+GRID-01,Grid,"Grid: High U, Easy D, Light W",1.0,1.0,0,2.0,"High U, Easy, Light"
+GRID-02,Grid,"Grid: High U, Easy D, Heavy W",1.0,1.0,4,15.0,"High U, Easy, Heavy"
+GRID-03,Grid,"Grid: High U, Mod D, Light W",1.0,3.0,0,3.0,"High U, Mod, Light"
+GRID-04,Grid,"Grid: High U, Mod D, Heavy W",1.0,3.0,4,14.0,"High U, Mod, Heavy"
+GRID-05,Grid,"Grid: High U, Hard D, Light W",1.0,5.0,0,4.0,"High U, Hard, Light"
+GRID-06,Grid,"Grid: High U, Hard D, Heavy W",1.0,5.0,5,18.0,"High U, Hard, Heavy"
+GRID-07,Grid,"Grid: Med U, Easy D, Light W",5.0,1.0,0,2.0,"Med U, Easy, Light"
+GRID-08,Grid,"Grid: Med U, Easy D, Mod W",5.0,1.0,2,5.0,"Med U, Easy, Mod"
+GRID-09,Grid,"Grid: Med U, Easy D, Heavy W",5.0,1.0,4,12.0,"Med U, Easy, Heavy"
+GRID-10,Grid,"Grid: Med U, Mod D, Light W",5.0,3.0,0,3.0,"Med U, Mod, Light"
+GRID-11,Grid,"Grid: Med U, Mod D, Mod W",5.0,3.0,2,6.0,"Med U, Mod, Mod (Balanced Midpoint)"
+GRID-12,Grid,"Grid: Med U, Mod D, Heavy W",5.0,3.0,4,14.0,"Med U, Mod, Heavy"
+GRID-13,Grid,"Grid: Med U, Hard D, Light W",5.0,5.0,0,4.0,"Med U, Hard, Light"
+GRID-14,Grid,"Grid: Med U, Hard D, Mod W",5.0,5.0,2,8.0,"Med U, Hard, Mod"
+GRID-15,Grid,"Grid: Med U, Hard D, Heavy W",5.0,5.0,5,18.0,"Med U, Hard, Heavy"
+GRID-16,Grid,"Grid: Low U, Easy D, Light W",11.0,1.0,0,1.5,"Low U, Easy, Light"
+GRID-17,Grid,"Grid: Low U, Easy D, Heavy W",11.0,1.0,4,12.0,"Low U, Easy, Heavy"
+GRID-18,Grid,"Grid: Low U, Mod D, Light W",11.0,3.0,1,4.0,"Low U, Mod, Light"
+GRID-19,Grid,"Grid: Low U, Hard D, Light W",11.0,5.0,0,6.0,"Low U, Hard, Light"
+GRID-20,Grid,"Grid: Low U, Hard D, Heavy W",11.0,5.0,5,20.0,"Low U, Hard, Heavy"
